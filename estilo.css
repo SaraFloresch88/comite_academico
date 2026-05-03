@@ -1,16 +1,23 @@
-body{
+/* Csss base usado en index, biblioteca de estudio */
+
+body{       /* Fondo pagina*/
     background-image: url(https://i.ibb.co/S4TPY6MC/Screenshot-2026-03-19-162009.png);
     background-size: cover;
-    /*background-color: rgba(255, 255, 255, 0.1); /* capa blanca semitransparente */
-    /*background-blend-mode: lighten; /* mezcla el color con la imagen */
 }
-img{
+img{        /* Logo del colegio*/
     width: 15%;
     float: left;
     margin: 1%;
     margin-top: 0;
 }
-nav{
+
+main{       /* Contenido principal*/
+    margin-left: 16%; /* espacio para la barra lateral */
+    padding: 2%;
+    color: white;
+}
+
+.barra_inicial{     /*Parra superior */
     background-color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 20%;
@@ -19,6 +26,7 @@ nav{
     padding: 0.4%;
     color: black;
 }
+
 h4,a{
     flex: 1;
     text-align: center;

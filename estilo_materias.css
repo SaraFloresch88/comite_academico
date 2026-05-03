@@ -1,0 +1,110 @@
+body{       /* Fondo pagina*/
+    background-image: url(https://i.ibb.co/S4TPY6MC/Screenshot-2026-03-19-162009.png);
+    background-size: cover;
+}
+img{        /* Logo del colegio*/
+    width: 15%;
+    float: left;
+    margin: 1%;
+    margin-top: 0;
+}
+
+main{       /* Contenido principal*/
+    margin-left: 16%; /* espacio para la barra lateral */
+    padding: 2%;
+    color: white;
+}
+section {
+    scroll-margin-top: 175px; /* ajusta según la altura de tu barra superior */
+}
+
+.barra_superior{    /*Barra d enavegación entre opciones de la página*/
+    background-color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 20%;
+    width: 100%;
+    font-size: larger;
+    padding: 0.4%;
+    color: black;
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+
+.barra_superior h1{
+    color: black;
+}
+
+.barra_superior h4{
+    color: black;
+}
+
+.barra_superior a{
+    color: black;
+}
+
+/* Barra lateral */
+.menu_grados {
+    width: 16%;
+    background-color: rgb(23, 9, 124);
+    color: rgb(255, 255, 255);
+    height: 80vh; /* ocupa toda la altura */
+    position: fixed; /* se queda fija */
+    top: 19%;
+    left: 0;
+    padding-top: 2%;
+}
+
+.menu_grados ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu_grados ul li {
+    margin: 10% 0;
+}
+
+.menu_grados ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 6%;
+    display: block;
+}
+
+.menu_grados ul li a:hover {
+    background-color: rgb(141, 3, 3);
+    color: #ffffff;
+}
+/*Cierre barra lateral*/
+
+h4,a{
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    display: inline-block;        
+    border-radius: 4%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0.4% 0;
+    line-height: 170%;
+}
+h1{
+    flex: 1;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:180%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recurso_class{
+    width: 50%;
+}
+.autor_class{
+    width: 20%;
+}
+.inform_class{
+    width: 20%;
+}
+.año_class{
+    width: 20%;
+}
